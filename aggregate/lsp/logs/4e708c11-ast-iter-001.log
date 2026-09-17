@@ -1,0 +1,7 @@
+[2026-09-17T13:01:11Z] === AST ITERATION 1 START | repo=blitz-js/superjson sha=4e708c11 ===
+[2026-09-17T13:01:11Z] [iter=1] PHASE START: ast repo=blitz-js/superjson sha=4e708c11
+[2026-09-17T13:01:11Z] [iter=1] Building AST aggregate chunks
+[2026-09-17T13:01:19Z] [iter=1] AST chunks built count=1 triples=91849
+[2026-09-17T13:01:19Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/4e708c11b8ae510008c42fbc445ff0e0e683417e/.complete
+[2026-09-17T13:01:19Z] [iter=1] PHASE END: ast elapsed_s=8 elapsed_min=0.1
+[2026-09-17T13:01:19Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
