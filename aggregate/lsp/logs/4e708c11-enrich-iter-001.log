@@ -1,0 +1,17 @@
+[2026-09-17T13:32:39Z] === ENRICH ITERATION 1 START | repo=blitz-js/superjson sha=4e708c11 ===
+[2026-09-17T13:32:39Z] [iter=1] PHASE START: enrich repo=blitz-js/superjson sha=4e708c11 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/4e708c11-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/4e708c11b8ae510008c42fbc445ff0e0e683417e.nq.gz
+[2026-09-17T13:32:51Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=82 MB
+[2026-09-17T13:32:51Z] [iter=1] AST store loaded triples=91849 load_secs=1 mem_mb=213 MB
+[2026-09-17T13:32:51Z] [iter=1] Step 2: Finding LSP targets mem_mb=213 MB
+[2026-09-17T13:32:52Z] [iter=1] LSP targets found call_sites=944 imports=0 extends=2 implements=0 secs=0
+[2026-09-17T13:32:52Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=213 MB
+[2026-09-17T13:32:52Z] [iter=1] Position index built positions=5865 nodes_with_types=7107 secs=0 mem_mb=213 MB
+[2026-09-17T13:32:52Z] [iter=1] Step 3: Starting LSP resolution mem_mb=213 MB already_completed_types=[] already_completed_files=0
+[2026-09-17T13:32:52Z] [iter=1] Resolving target type target_type=call_site count=944
+[2026-09-17T13:33:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=4 resolved=69 errors=344 current=src/plainer.ts
+[2026-09-17T13:33:20Z] [iter=1] Target type resolved target_type=call_site resolved=137 errors=489 secs=28 mem_mb=213 MB
+[2026-09-17T13:33:20Z] [iter=1] Resolving target type target_type=extends_clause count=2
+[2026-09-17T13:33:22Z] [iter=1] Target type resolved target_type=extends_clause resolved=2 errors=0 secs=2 mem_mb=213 MB
+[2026-09-17T13:33:26Z] [iter=1] Step 5: Writing final enrichment file triples=8555
+[2026-09-17T13:33:26Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/4e708c11b8ae510008c42fbc445ff0e0e683417e.nq.gz size_kb=136
+[2026-09-17T13:33:26Z] [iter=1] PHASE END: enrich elapsed_s=48 elapsed_min=0.8 total_triples=8555
